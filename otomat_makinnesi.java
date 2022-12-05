@@ -29,7 +29,7 @@ public class otomat_makinnesi {
                         if(credit-kola>=0){
                             int a=(credit-kola);
                             System.out.println("Afiyet olsun!\nPara üstünüz:"+a);
-                            boolean inTrue=true;
+                            isTrue=true;
                             ent=ent+10;
                             rePay=credit-kola;
                             break;
@@ -43,6 +43,7 @@ public class otomat_makinnesi {
                         if(credit-gazoz>=0){
                             int a=(credit-gazoz);
                             System.out.println("Afiyet olsun!\nPara üstünüz:"+a);
+                            isTrue=true;
                             ent=ent+10;
                             rePay=credit-gazoz;
                             break;
@@ -56,6 +57,7 @@ public class otomat_makinnesi {
                         if(credit-cips>=0){
                             int a=(credit-cips);
                             System.out.println("Afiyet olsun!\nPara üstünüz:"+a);
+                            isTrue=true;
                             ent=ent+10;
                             rePay=credit-cips;
                             break;
@@ -69,6 +71,7 @@ public class otomat_makinnesi {
                         if(credit-kraker>=0){
                             int a=(credit-kraker);
                             System.out.println("Afiyet olsun!\nPara üstünüz:"+a);
+                            isTrue=true;
                             ent=ent+10;
                             rePay=credit-kraker;
                             break;
@@ -82,6 +85,7 @@ public class otomat_makinnesi {
                         if(credit-cikolata>=0){
                             int a=(credit-cikolata);
                             System.out.println("Afiyet olsun!\nPara üstünüz:"+a);
+                            isTrue=true;
                             ent=ent+10;
                             rePay=credit-cikolata;
                             break;
